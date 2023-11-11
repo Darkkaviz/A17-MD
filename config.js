@@ -4,22 +4,22 @@ const chalk = require("chalk");
 
 //
 global.available = true;
-global.autoReadGc = false;
-global.autoReadAll = false;
+global.autoReadGc = true;
+global.autoReadAll = true;
 global.antitags = true;
 
 
 //auto functioner
-global.autoTyping = false;                //auto tying by default off.
-global.autoRecord = false;                //auto recording by default off.
-global.groupevent = false;                //This is the new variable for controlling group event handling.
+global.autoTyping = true;                //auto tying by default off.
+global.autoRecord = true;                //auto recording by default off.
+global.groupevent = true;                //This is the new variable for controlling group event handling.
 global.statusseen = true;                 //This is the new variable for controlling status seen.
 
 
 //
-global.Owner = ["19145948378"];         //If you want singal number so global.Owner = ['916297175943'] Change into your number.
-global.OwnerNumber = ["19145948378"];   //If you want singal number so global.Owner = ['916297175943'] Change into your number.
-global.ownertag = ["19145948378"];
+global.Owner = ["94760552994"];         //If you want singal number so global.Owner = ['916297175943'] Change into your number.
+global.OwnerNumber = ["94760552994"];   //If you want singal number so global.Owner = ['916297175943'] Change into your number.
+global.ownertag = ["94760552994"];
 global.OwnerName = "PARADISE";
 global.BotName = "A17";
 global.packname = "A17 Bot";                             //Do not change.
